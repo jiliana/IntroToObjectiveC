@@ -9,6 +9,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSString *name; // pointer variable (pointing to memory) for objects
+@property (nonatomic) int age; // regular variable for native c type
+
 
 @end
 
