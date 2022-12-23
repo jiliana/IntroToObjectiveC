@@ -17,6 +17,8 @@
 		0847ED7E2954FA7B0094B5AF /* HelloOBJCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847ED7D2954FA7B0094B5AF /* HelloOBJCTests.m */; };
 		0847ED882954FA7B0094B5AF /* HelloOBJCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847ED872954FA7B0094B5AF /* HelloOBJCUITests.m */; };
 		0847ED8A2954FA7B0094B5AF /* HelloOBJCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847ED892954FA7B0094B5AF /* HelloOBJCUITestsLaunchTests.m */; };
+		0847ED9829552D120094B5AF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847ED9729552D120094B5AF /* Person.m */; };
+		0847ED9B295535730094B5AF /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0847ED9A295535730094B5AF /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		0847ED832954FA7B0094B5AF /* HelloOBJCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloOBJCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0847ED872954FA7B0094B5AF /* HelloOBJCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOBJCUITests.m; sourceTree = "<group>"; };
 		0847ED892954FA7B0094B5AF /* HelloOBJCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOBJCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0847ED9629552D120094B5AF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0847ED9729552D120094B5AF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0847ED99295535730094B5AF /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		0847ED9A295535730094B5AF /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				0847ED6F2954FA7A0094B5AF /* LaunchScreen.storyboard */,
 				0847ED722954FA7A0094B5AF /* Info.plist */,
 				0847ED732954FA7A0094B5AF /* main.m */,
+				0847ED9629552D120094B5AF /* Person.h */,
+				0847ED9729552D120094B5AF /* Person.m */,
+				0847ED99295535730094B5AF /* Vehicle.h */,
+				0847ED9A295535730094B5AF /* Vehicle.m */,
 			);
 			path = HelloOBJC;
 			sourceTree = "<group>";
@@ -268,6 +278,8 @@
 			files = (
 				0847ED692954FA760094B5AF /* ViewController.m in Sources */,
 				0847ED632954FA760094B5AF /* AppDelegate.m in Sources */,
+				0847ED9B295535730094B5AF /* Vehicle.m in Sources */,
+				0847ED9829552D120094B5AF /* Person.m in Sources */,
 				0847ED742954FA7A0094B5AF /* main.m in Sources */,
 				0847ED662954FA760094B5AF /* SceneDelegate.m in Sources */,
 			);
